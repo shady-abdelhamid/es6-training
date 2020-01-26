@@ -4,6 +4,15 @@ let direction = 1;
 
 direction = direction * -1;
 
+
+
+
+
+
+
+
+
+
 /**
  * Array
  */
@@ -11,6 +20,13 @@ direction = direction * -1;
  let pokemons = ['Pikachu', 'Bulbasaur', 'Squirtle'];
 
  console.log(pokemons);
+
+
+
+
+
+
+
 
  /**
   * Object
