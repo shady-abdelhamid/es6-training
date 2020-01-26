@@ -1,0 +1,1 @@
+console.log('welcome to ES6 training course !!!');
