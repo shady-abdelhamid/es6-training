@@ -1,25 +1,13 @@
-// Constants
+function sayMyName() {
+    console.log('[name]');
+}
 
-let direction = 1;
-
-direction = direction * -1;
-
-
-
-
-
-
-
-
-
+sayMyName();
 
 /**
- * Array
+ * Arrow
  */
 
- let pokemons = ['Pikachu', 'Bulbasaur', 'Squirtle'];
-
- console.log(pokemons);
 
 
 
@@ -28,11 +16,42 @@ direction = direction * -1;
 
 
 
- /**
-  * Object
-  */
 
-  let pokeball = {
-      type: 'normal',
-      strength: 'weak'
-  };
+
+
+
+
+
+
+ /** variation - oneline / multiple lines / argument variation */
+
+
+
+ /** where to use */
+// setInterval(() => console.log('JS6'), 1000);
+
+
+
+
+
+
+
+/** Arrow function keeps "this" context */
+
+
+
+
+
+
+
+
+    // const button = document.querySelector('button');
+
+    // function issueFunction() {
+    //     console.log(this);
+    // }
+
+    // const resolveFunction = () => console.log(this);
+
+    // button.addEventListener('click', issueFunction);
+
