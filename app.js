@@ -1,1 +1,7 @@
-console.log('welcome to ES6 training course !!!');
+var name = '';
+console.log('Here comes the champ,', name);
+
+
+// if  (true) {
+
+// }
