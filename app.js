@@ -1,28 +1,21 @@
-/**
- * Rest
- */
-let items = [];
 
-function loot (toPickup) {
-    let result = [];
-    for (let i = 0; i < toPickup.length; i++) {
-        result.push(toPickup[i]);
-    }
-    return result;
+let  agumonForms = [
+    'Botamon',
+    'Koromon',
+    'Agumon',
+    'Greymon', 
+    'MetalGreymon', 
+    'WarGreymon'
+];
+
+
+
+
+
+
+
+let gabumon = {
+    level: "rockie",
+    type: "reptile",
+    exp: 15,
 }
-
-console.log('BackBag', loot('toolbox', 'shovel', 'bike'));
-
-
-
-
-/**
- * Spread
- */
-
-
-let enemies = [1,2,3,5];
-
-let boss = Math.max(enemies);
-
-console.log(boss);
