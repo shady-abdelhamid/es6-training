@@ -1,22 +1,28 @@
-let name = 'Player 1';
-let health = 30;
+/**
+ * Rest
+ */
+let items = [];
 
-let player = {
-    name : name,
-    health: health,
+function loot (toPickup) {
+    let result = [];
+    for (let i = 0; i < toPickup.length; i++) {
+        result.push(toPickup[i]);
+    }
+    return result;
 }
 
+console.log('BackBag', loot('toolbox', 'shovel', 'bike'));
 
 
 
 
+/**
+ * Spread
+ */
 
 
+let enemies = [1,2,3,5];
 
+let boss = Math.max(enemies);
 
-
-// sayMyName: function() {
-    //         console.log(this.name);
-    //     },
-    
-// [extention]:
+console.log(boss);
