@@ -1,57 +1,18 @@
-function sayMyName() {
-    console.log('[name]');
-}
 
-sayMyName();
+document.addEventListener("keydown", evt => {
+    if (evt.code === 'ArrowRight') {
+        console.log("Right", move(10));
+    }
 
-/**
- * Arrow
- */
+    if (evt.code === 'ArrowLeft') {
+        console.log("Left", move(10, -1));
+    }
 
+    if (evt.code === 'ArrowUp') {
+        console.log("Up", move(10));
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /** variation - oneline / multiple lines / argument variation */
-
-
-
- /** where to use */
-// setInterval(() => console.log('JS6'), 1000);
-
-
-
-
-
-
-
-/** Arrow function keeps "this" context */
-
-
-
-
-
-
-
-
-    // const button = document.querySelector('button');
-
-    // function issueFunction() {
-    //     console.log(this);
-    // }
-
-    // const resolveFunction = () => console.log(this);
-
-    // button.addEventListener('click', issueFunction);
-
+    if (evt.code === 'ArrowDown') {
+        console.log("Down", move(10, -1));
+    }
+});
