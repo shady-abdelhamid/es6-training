@@ -1,20 +1,45 @@
-const symbol = Symbol('some value');
-console.log(symbol);
+/**
+ * iterators
+ */
+
+let array = [1, 2, 3];
+
+let it = array[Symbol.iterator]();
+
+console.log(it.next());
 
 
 
 
+/** iterateable object */
 
-
-
-
-
-// const tools = {
-//   [Symbol('weapon')]: { type: 'pan', strength: 10 },
-//   [Symbol('bag')]: { typ: 'lvl3', capacity: 32 },
-//   [Symbol('weapon')]: { type: 'pan', strength: 10 },
+// let enemy = {
+//     name: 'Darth Vader',
+//     abilities: ['Force Valor', 'Telekinesis', 'Master Lightsaber Duelist'],
+//     [Symbol.iterator]: function() {
+//         let i = 0;
+//         let abilities = this.abilities;
+//         return {
+//             next: function() {
+//                 let value = abilities[i];
+//                 i++;
+//                 return {
+//                     done: i > abilities.length,
+//                     value
+//                 };
+//             }
+//         };
+//     }
 // };
-// console.log(tools);
+
+// for (const ability of enemy) {
+//     console.log(ability);
+// }
 
 
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
+
+
+
+/**
+ * 
+ */
