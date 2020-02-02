@@ -1,12 +1,13 @@
 /**
- * Promise 
+ * assign
  */
 
 
-/**
- * all VS race
- */
+ /**
+  * startsWith - endsWith - includes
+  */
 
 
-
-
+  /**
+   * of - from - fill - find - copyWithin - entries
+   */
