@@ -1,13 +1,29 @@
 /**
- * assign
+ * Manage Sets - crud
  */
 
-
- /**
-  * startsWith - endsWith - includes
-  */
+const heros = new Set(['Batman','Superman', 'Flash', 'Arrow']); 
+console.log(heros);
 
 
-  /**
-   * of - from - fill - find - copyWithin - entries
-   */
+/**
+ * Maps
+ */
+
+ const villins = new Map();
+
+ villins.set('Joker', {
+     title: 'Jocker',
+     colors: ['purple','green'],
+ });
+
+ villins.set('Deathstroke', {
+    title: 'Deathstroke',
+    colors: ['Orange','Black'],
+});
+
+villins.set('Freaze', {
+    title: 'Freaze',
+    colors: ['White','Blue'],
+});
+ 
