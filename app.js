@@ -1,12 +1,11 @@
-function *selectHero() {
-    yield 'Ironman';
-    yield 'Spiderman';
-}
+/**
+ * Promise 
+ */
 
-let it = selectHero();
-console.log(it.next());
-console.log(it.next());
-console.log(it.next());
+
+/**
+ * all VS race
+ */
 
 
 
